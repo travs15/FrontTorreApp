@@ -1,0 +1,23 @@
+Saturday 13 November
+9:00am Thinking and designing the architecture of the app
+9:30am Breakfast
+10:00am Interacting with Torre endpoints
+11:00am mock up realization and Enterprise Architect diagram of the components
+12:00pm building the Java Spring-boot application
+1:00pm fixing problems with setup and creating the classes with attributes
+2:00pm lunch, creating endpoints and making test to the endpoints
+3:00pm starting front with vue.js fixing issues in github project
+4:00pm creating components and templates in front
+5:00pm generate config file install dependecies for vue project
+6:00pm creating and styling Main component
+7:00pm rendering data obtained from back, connection with person info end point
+8:00pm grid layout for buttons and filter the proficient skills
+9:00pm working in the component of the especific skills
+10:00pm styling component for skills
+11:00pm testing the app and fixing front end styling
+
+Sunday 14 November
+12:00am finishing front end, updating repositories and preparing deploy to heroku
+
+5:00am deploying to heroku, front and back
+6:00am deployment tested and organizing documentation
