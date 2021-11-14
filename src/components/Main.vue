@@ -124,14 +124,9 @@
           <div class="row d-flex align-items-center justify-content-around">
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="el-contact">
-                <p>Alejandro Reyes P.</p>
+                <p> developed by A. R. P. 2021</p>
               </div>
-            </div>            
-            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-              <div class="el-contact">
-                <p>Github</p>
-              </div>
-            </div>            
+            </div>          
           </div>
         </div>
     </footer>

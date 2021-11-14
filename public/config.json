@@ -1,4 +1,4 @@
 {
-    "URL_API_ROOT": "http://localhost:8080/technicalback/api/person/",
+    "URL_API_ROOT": "https://torretechback.herokuapp.com/technicalback/api/person/",
     "URL_TORRE": "https://torre.co/en/"
 }
