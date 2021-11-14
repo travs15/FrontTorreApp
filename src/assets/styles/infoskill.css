@@ -1,0 +1,39 @@
+.containerSkillsSpec{
+    background-color: #22272c !important;
+    color: white;
+    padding: 1em;
+}
+
+.skillData{
+    border: #2f3640;
+    border-style: groove;
+    border-color: rgb(133, 133, 133,0.1);
+    border-width: 1px;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.iconTextTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5em;
+}
+.iconText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0.5em;
+}
+.iconTextInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0.5em;
+    font-size: 0.8em;
+}
+.modal-header{
+    background-color: #22272c !important;
+}
