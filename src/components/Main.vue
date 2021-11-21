@@ -14,7 +14,7 @@
     <div class="row align-items-center justify-content-evenly">
       <div class="col-10 col-sm-10 col-md-6 col-lg-6">
         <p>
-          Enter in your profile, and get your id in the browser, like this:
+          Log into your profile, and get your id in the browser, like this:
         </p>
         <div class="infoUser">
           <p class="infoUser__infoDesc">https://torre.co/en/<b>alejandroreyespena</b></p> 

@@ -35,15 +35,7 @@
 <script>
 export default {
     name:'SkillCard',
-    props:["skillData"],
-    data(){
-        return{
-
-        }
-    },
-    methods:{
-        
-    }
+    props:["skillData"]
 }
 </script>
 
