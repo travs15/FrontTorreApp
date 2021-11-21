@@ -1,0 +1,19 @@
+/* skills */
+
+.skillsDiv{
+    color: white;
+    background-color: #59606b;  
+    border: #2f3640;
+    border-style: groove;
+    border-color: rgb(133, 133, 133,0.1);
+    border-width: 1px;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.skillsDiv__buttonSkill{
+    margin: 0.2em;
+}

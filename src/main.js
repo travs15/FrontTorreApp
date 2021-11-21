@@ -12,6 +12,7 @@ Vue.config.productionTip = false
 //   render: h => h(App),
 // }).$mount('#app')
 
+// eslint-disable-next-line no-undef
 fetch(process.env.BASE_URL + "config.json")
   .then((response) => response.json())
   .then((config) => {

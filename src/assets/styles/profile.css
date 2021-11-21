@@ -1,0 +1,58 @@
+/*User info */
+.userInfoCont{
+    margin-bottom: 2em;
+}
+
+.userInfoCont__profileData{
+    border: #2f3640;
+    border-style: groove;
+    border-color: rgb(133, 133, 133,0.1);
+    border-width: 1px;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.userInfoCont__profileImg{
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.userInfoCont__imgCol{
+    box-shadow: inset 5em 2em #466d30;
+    border-radius: 50%;
+}
+
+.userInfoCont__descCol{
+    text-align: start;
+    padding-left: 1em;
+}
+
+.userInfoCont__linkButton {
+    color: white;
+    float: right;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0em;
+    border-style: outset;
+    border-color: rgb(133, 133, 133);
+    border-image: none;
+}
+.userInfoCont__linkButton:hover {
+    background: #44a08d;
+    color : #2f3640;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
+}
+
+.userInfoCont__iconAndText{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}

@@ -1,10 +1,10 @@
-.contSkills{
+.contSkillsCard{
     background-color: #22272c !important;
     color: white;
     padding: 1em;
 }
 
-.contSkills__skillData{
+.contSkillsCard__skillData{
     border: #2f3640;
     border-style: groove;
     border-color: rgb(133, 133, 133,0.1);
@@ -15,19 +15,19 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-.contSkills__iconTextTitle{
+.contSkillsCard__iconTextTitle{
     display: flex;
     justify-content: center;
     align-items: center;
     margin:0.5em;
 }
-.contSkills__iconText{
+.contSkillsCard__iconText{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin:0.5em;
 }
-.contSkills__iconTextInfo{
+.contSkillsCard__iconTextInfo{
     display: flex;
     justify-content: flex-start;
     align-items: center;

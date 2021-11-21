@@ -9,6 +9,6 @@ export default{
         return axios.get(API_PATH + userId, config);
     },
     getSkillInfo(userId, skillId ,API_PATH){
-        return axios.get(API_PATH + userId + "/"  + skillId, config);
+        return axios.get(API_PATH + userId + "/" + skillId, config);
     }
 }

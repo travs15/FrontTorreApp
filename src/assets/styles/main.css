@@ -1,6 +1,5 @@
+/* navigation */
 .navigation{
-    /* background-color: #4c6fff; */
-    /* background: linear-gradient(to left, rgb(61, 153, 214), rgb(43, 94, 211), rgb(39, 74, 117)); */
     background: linear-gradient(to left, rgb(122, 214, 61), rgb(133, 211, 43), rgb(83, 117, 39));
     border-radius: 0 0 10% 20%;
     color: white;
@@ -9,31 +8,49 @@
     margin-bottom: 1em;
 }
 
-.footerMain{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /* background-color: #84B8FB; */
-    background: linear-gradient(to left, rgb(122, 214, 61), rgb(133, 211, 43), rgb(83, 117, 39));
-    color: white;
-    /* text-align: center; */
+.navigation__minimalLetter{
+    font-size: 0.5em;
 }
 
-.el-contact{
-    padding: 0.3em;
+.navigation__torreSpan{
     font-size: 1em;
 }
-  
-.el-contact p{
+
+/* indications */
+.infoUser{
+    background-color: #CFF4FC;
+    color: #22272c;
+    border-radius: .5em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+
+.infoUser__infoDesc{
+    font-size: 1em;
+    width: 100%;
     margin: 0;
 }
 
-.el-contact-icon{
-    font-size: 1em;
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .infoUser__infoDesc{
+        font-size: 3vw;
+    }
+  }
+  
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .infoUser__infoDesc{
+        font-size: 3vw;
+    }
 }
 
-.searchBox {
+/* search bar*/
+.searchBar{
+    margin-bottom: 0.8em;
+}
+
+.searchBar__searchBox {
     position: relative;
     background: #2f3640;
     height: 2em;
@@ -41,7 +58,19 @@
     /* padding: 10px; */
 }
 
-.searchButton {
+.searchBar__searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding-left: 12px;
+    color: white;
+    font-size: 16px;
+    line-height: 2em;
+    width: 80%;
+}
+
+.searchBar__searchButton {
     color: white;
     float: right;
     width: 2em;
@@ -57,144 +86,28 @@
     border-color: rgb(133, 133, 133);
     border-image: none;
 }
-.searchBar{
-    margin-bottom: 0.8em;
-}
 
-.searchInput {
-    border:none;
-    background: none;
-    outline:none;
-    float:left;
-    padding-left: 12px;
-    color: white;
-    font-size: 16px;
-    line-height: 2em;
-    width: 80%;
-}
-
-.infoDesc{
-    font-size: 1em;
+/* footer */
+.footerMain{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background: linear-gradient(to left, rgb(122, 214, 61), rgb(133, 211, 43), rgb(83, 117, 39));
+    color: white;
+    margin-top: 1em;
 }
 
-.minimalLetter{
-    font-size: 0.5em;
-}
-
-.torre{
+.footerMain__el-contact{
+    padding: 0.3em;
     font-size: 1em;
 }
-
-
-.infoUser{
-    background-color: #CFF4FC;
-    color: #22272c;
-    border-radius: .5em;
-    padding: 1em;
-    margin-bottom: 0.5em;
-}
-
-.infoDesc{
-    font-size: 1em;
+  
+.footerMain__el-contact p{
     margin: 0;
 }
 
-.userInfoContent{
-    margin-bottom: 2em;
-}
 
-@media (min-width: 481px) and (max-width: 767px) {
-  
-    .infoDesc{
-        font-size: 3vw;
-    }
-  }
-  
-@media (min-width: 320px) and (max-width: 480px) {
 
-    .infoDesc{
-        font-size: 3vw;
-    }
-}
-
-/* profile section */
-.showProfile{
-    display: flex;
-}
-.profileData{
-    border: #2f3640;
-    border-style: groove;
-    border-color: rgb(133, 133, 133,0.1);
-    border-width: 1px;
-    border-radius: 0.5em;
-    padding: 1em;
-    margin-top: 1em;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-.profileImg{
-    width: 80%;
-    border-radius: 50%;
-    margin-bottom: 1em;
-}
-
-.imgCol{
-    box-shadow: inset 5em 2em #466d30;
-    border-radius: 50%;
-}
-
-.descCol{
-    text-align: start;
-    padding-left: 1em;
-}
-
-.linkButton {
-    color: white;
-    float: right;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 0em;
-    border-style: outset;
-    border-color: rgb(133, 133, 133);
-    border-image: none;
-}
-.linkButton:hover {
-    background: #44a08d;
-    color : #2f3640;
-    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
-    transition: all 200ms ease-out;
-}
-
-.profileRowInter2{
-    color: white;
-    background-color: #59606b;    
-}
-
-.interests{
-    border: #2f3640;
-    border-style: groove;
-    border-color: rgb(133, 133, 133,0.1);
-    border-width: 1px;
-    border-radius: 0.5em;
-    padding: 1em;
-    padding-top: 2em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.buttonSkill{
-    margin: 0.2em;
-}
-
-.iconAndText{
-    display: flex;
-    justify-content: first baseline;
-    align-items: center;
-}
 
 

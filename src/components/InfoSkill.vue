@@ -1,57 +1,33 @@
 <template>
-  <div class="containerSkillsSpec">
+  <div class="contSkills">
     <div class="row d-flex align-items-center justify-content-center">
       <div class="col-4 col-sm-4 col-md-4 col-lg-4">
-        <p class="iconTextTitle">
-          <i class="material-icons iconText">fact_check</i>Skill: {{skillInfo.skillName}}
+        <p class="contSkills__iconTextTitle">
+          <i class="material-icons contSkills__iconText">fact_check</i>Skill: {{skillInfo.skillName}}
         </p>
       </div>
     </div>
-    <div class="skillData" v-bind:style="{ display: showNoDataSkill }">
+    <div class="contSkills__skillData" v-bind:style="{ display: showNoDataSkill }">
       <div class="row d-flex align-items-center justify-content-around">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-          <p class="iconText">
-            <i class="material-icons iconText">warning_amber</i>
-            There´s no related experience to this skill, please select another one.
+          <p class="contSkills__iconText">
+            <i class="material-icons contSkills__iconText">warning_amber</i>
+            There is no related experience to this skill, please select another one.
           </p>
         </div>
       </div>
     </div>
-    <div class="skillData" v-for="item in skillData" :key="item.id">
-      <div class="row d-flex align-items-center justify-content-around">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-          <p class="iconText">
-            <i class="material-icons iconText">work</i>Job Profile: {{ item.name }}
-          </p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-          <p class="iconText">
-            <i class="material-icons iconText">task_alt</i>Verifications: {{ item.verifications }}
-          </p>
-        </div>
-      </div>
-      <div class="row d-flex align-items-center justify-content-around">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12" v-for="subitem in item.organizations" :key="subitem.name">
-            <p class="iconText">
-              <i class="material-icons iconText">corporate_fare</i>{{ subitem.name }}
-            </p>
-        </div>
-      </div>
-      <div class="row d-flex align-items-center justify-content-around">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-            <p class="iconTextInfo">
-              <i class="material-icons iconText">info</i>Additional Info:
-              {{ item.additionalInfo == "" ? "No aditional info" : item.additionalInfo}}
-            </p>
-        </div>
-      </div>
-    </div>
+    <SkillCard :skillData="skillData"></SkillCard>
   </div>
 </template>
 
 <script>
+import SkillCard from "./SkillCard.vue";
 export default {
     name:'InfoSkill',
+    components:{
+    SkillCard
+},
     props:["skillInfo"],
     data(){
       return{
